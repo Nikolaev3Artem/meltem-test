@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/media.css">
+
+    <title>Meltem</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="assets/images/logo.jpg" alt="">
+        </div>
+        <div class="header__navbar">
+            <a href="#" class="navbar__item">Компанія</a>
+            <a href="#" class="navbar__item">Продукція</a>
+            <a href="#" class="navbar__item">Статті</a>
+            <a href="#" class="navbar__item">Рішення</a>
+            <a href="#" class="navbar__item">Контакти</a>
+        </div>
+        <div class="header__contact">
+            <p class="bold phone-number">0 (800) 00-00-00</p>
+            <button class="btn btn-grey open_popup">Зв’язатись</button>
+            <div id="callback" class="overlay">
+                <div class="callback__popup">
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        <h2>Залишайте заявку</h2>
+                        <p class="mt-2 mb-2">Ми зв’яжемося з вами найближчим часом.</p>
+                        <input type="text" placeholder="Ваше ім’я*" class="form-input">
+                        <input type="text" class="phone-number-input" class="form-input" placeholder="+380-00-000-00-00*">
+                        <button class="btn btn-grey">Відправить</button>
+                        <p class="small">Натискаючи кнопку “Надіслати”, ви погоджуєтесь з <span>Правилами обробки персональних даних.</span></p>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <button class="languages-button btn-grey">UA</button>
+                <button class="languages-button">RU</button>
+            </div>
+            <div class="burger">
+                <img src="assets/images/burger.png" alt="">
+            </div>
+            <div id="burger" class="burger-overlay">
+                <div class="burger__popup">
+                    <div>
+                        <a class="close-burger" href="#">&times;</a>
+                        <div>
+                            <img src="assets/images/logo.jpg" alt="">
+                            <button class="btn btn-grey open_popup">Зв’язатись</button>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <div class="mobile_navbar">
+                            <a href="#" class="navbar__item-mobile"><h2>Компанія</h2></a>
+                            <a href="#" class="navbar__item-mobile"><h2>Продукція</h2></a>
+                            <a href="#" class="navbar__item-mobile"><h2>Статті</h2></a>
+                            <a href="#" class="navbar__item-mobile"><h2>Рішення</h2></a>
+                            <a href="#" class="navbar__item-mobile"><h2>Контакти</h2></a>
+                            <h2 class="bold">0 (800) 00-00-00</h2>
+                            <div>
+                                <button class="languages-button-mobile btn-grey">UA</button>
+                                <button class="languages-button-mobile">RU</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="hero__left_side">
+                    <h1 class="bold">Meltem</h1>
+                    <h4>Meltem – це гарантовано якісне вентиляційне 
+                        обладнання від німецького заводу.
+                    </h4>
+                    <button class="btn btn-grey">Продукція</button>
+                </div>
+                <div class="img-wrapper">
+                    <img src="assets/images/carousel-item.png" alt="" width="100%" >
+                </div>
+                <div class="hero__right_side">
+                    <h3>Відцентровий витяжний вентилятор</h3>
+                    <h3 class="bold">Meltem V-II 30-N</h3>
+                    <button class="btn btn-transparent">Детальніше</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="hero__left_side">
+                    <h1 class="bold">Meltem</h1>
+                    <h4>Meltem – це гарантовано якісне вентиляційне 
+                        обладнання від німецького заводу.
+                    </h4>
+                    <button class="btn btn-grey">Продукція</button>
+                </div>
+                <div class="img-wrapper">
+                    <img src="assets/images/carousel-item.png" alt="" width="100%" >
+                </div>
+                <div class="hero__right_side">
+                    <h3>Відцентровий витяжний вентилятор</h3>
+                    <h3 class="bold">Meltem V-II 30-N</h3>
+                    <button class="btn btn-transparent">Детальніше</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="hero__left_side">
+                    <h1 class="bold">Meltem</h1>
+                    <h4>Meltem – це гарантовано якісне вентиляційне 
+                        обладнання від німецького заводу.
+                    </h4>
+                    <button class="btn btn-grey">Продукція</button>
+                </div>
+                <div class="img-wrapper">
+                    <img src="assets/images/carousel-item.png" alt="" width="100%" >
+                </div>
+                <div class="hero__right_side">
+                    <h3>Відцентровий витяжний вентилятор</h3>
+                    <h3 class="bold">Meltem V-II 30-N</h3>
+                    <button class="btn btn-transparent">Детальніше</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="hero__left_side">
+                    <h1 class="bold">Meltem</h1>
+                    <h4>Meltem – це гарантовано якісне вентиляційне 
+                        обладнання від німецького заводу.
+                    </h4>
+                    <button class="btn btn-grey">Продукція</button>
+                </div>
+                <div class="img-wrapper">
+                    <img src="assets/images/carousel-item.png" alt="" width="100%" >
+                </div>
+                <div class="hero__right_side">
+                    <h3>Відцентровий витяжний вентилятор</h3>
+                    <h3 class="bold">Meltem V-II 30-N</h3>
+                    <button class="btn btn-transparent">Детальніше</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+    <section class="cookie" id="cookie-modal">
+        <div>
+            <p>Використовуючи цей сайт, ви даєте згоду на роботу з файлами <span>сookies</span>.</p>
+            <button class="btn btn-transparent" id="accept-cookie">Згоден</button>
+        </div>
+
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        scrollbar: {
+            el: ".swiper-scrollbar",
+            hide: false,
+            },
+        });
+    </script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
